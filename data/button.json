@@ -1,0 +1,12 @@
+{
+  "admin_buttons": [
+      { "look_ticket": "Тікети" },
+      { "update_admin_panel": "Оновити" },
+      { "announce": "Оголошеня" }
+  ],
+
+    "ещё_кнопки": [
+        {"key": "value"},
+        {"key_1": "value_1"}
+    ]
+}
