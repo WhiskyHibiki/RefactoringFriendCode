@@ -34,7 +34,7 @@ class TelegramBot(TeleBot):
 
             if this_user.is_admin:
                 self.reply_to(message, "You are admin")
-                self.cur_admin_users.append(User)
+                self.cur_admin_users.append(this_user)
                 self.admin_panel_msg(message) # Вызов панели админа если админ
 
             else:
